@@ -1,0 +1,20 @@
+.title {
+    text-align: center;
+}
+hr {
+    text-align: center;
+    width: 500px;
+}
+.list-chapter {
+    text-align: center;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+/* #chuong_1 {
+    display: none;
+}
+.chuong1:focus + #chuong_1 {
+    display: block;
+} */
