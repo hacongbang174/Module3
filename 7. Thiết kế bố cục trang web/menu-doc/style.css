@@ -38,4 +38,5 @@ body {
 
 #menu ul li:hover ul{
     visibility: visible;
+    display: blo;
 }
