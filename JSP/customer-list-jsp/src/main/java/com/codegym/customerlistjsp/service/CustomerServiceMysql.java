@@ -49,11 +49,11 @@ public class CustomerServiceMysql extends DBContext implements CustomerService{
         return customer;
     }
 
-//    public static void main(String[] args) {
-//        CustomerServiceMysql customerServiceMysql = new CustomerServiceMysql();
-//        List<Customer> customers = customerServiceMysql.findAll();
-//        for (Customer customer : customers) {
-//            System.out.println(customer);
-//        }
-//    }
+    public static void main(String[] args) {
+        CustomerServiceMysql customerServiceMysql = new CustomerServiceMysql();
+        List<Customer> customers = customerServiceMysql.findAll();
+        for (Customer customer : customers) {
+            System.out.println(customer);
+        }
+    }
 }
